@@ -7,7 +7,6 @@ bool chk(int a,int b, int N, int M){
     return 0<=a && a<N && 0<=b && b <M;
 }
 
-
 void find_path(std::queue<std::tuple<int,int,int>>* q,int** map,int** v_map,int N,int M, int* min){
     
     int dx[4] = {0,1,0,-1};
